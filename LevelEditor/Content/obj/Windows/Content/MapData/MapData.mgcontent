@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/LevelEditor/Content/MapData/MapData.xml</SourceFile>
+  <SourceTime>2022-03-21T19:12:48.0184114+00:00</SourceTime>
+  <DestFile>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/LevelEditor/Content/bin/Windows/Content/MapData/MapData.xnb</DestFile>
+  <DestTime>2022-03-21T19:13:51.8073804+00:00</DestTime>
+  <Importer>XmlImporter</Importer>
+  <ImporterTime>2020-08-10T17:17:54+01:00</ImporterTime>
+  <Processor>PassThroughProcessor</Processor>
+  <ProcessorTime>2020-08-10T17:17:54+01:00</ProcessorTime>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
