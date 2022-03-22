@@ -4,10 +4,10 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/LevelEditor/Content/Buttons/CycleButton.png</File>
-    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/LevelEditor/Content/Buttons/TileButton.png</File>
-    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/LevelEditor/Content/Tiles/DefaultTile.png</File>
-    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/LevelEditor/Content/Tiles/Tile-Fire.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Buttons/CycleButton.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Buttons/TileButton.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Tiles/DefaultTile.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Tiles/Tile-Fire.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

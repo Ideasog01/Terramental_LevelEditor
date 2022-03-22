@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i9BrIfRgxm67gC8Y11ah2U+IDwcN0xjRT/51/ivlWr0QA0Pw97SZAxY4W2T1G22ywSQCI6GpTI4fvMQ3bDklpA==",
+  "dgSpecHash": "q3EqPITtgCr5uLMWfYCE83BadveuBTmu7yZfArAz7N0VW9pehMRVHi66VdR+seLH8DMDO7ZaKdvBzVLzDLolQQ==",
   "success": true,
-  "projectFilePath": "F:\\University\\Semester2\\Game Development Group Project\\Terramental_Project\\LevelEditor\\LevelEditor\\LevelEditor.csproj",
+  "projectFilePath": "F:\\University\\Semester2\\Game Development Group Project\\Terramental_Project\\LevelEditor\\Terramental_LevelEditor\\LevelEditor\\LevelEditor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\olive\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\olive\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",

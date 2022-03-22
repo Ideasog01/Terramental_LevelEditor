@@ -7419,11 +7419,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\University\\Semester2\\Game Development Group Project\\Terramental_Project\\LevelEditor\\LevelEditor\\LevelEditor.csproj",
+      "projectUniqueName": "F:\\University\\Semester2\\Game Development Group Project\\Terramental_Project\\LevelEditor\\Terramental_LevelEditor\\LevelEditor\\LevelEditor.csproj",
       "projectName": "LevelEditor",
-      "projectPath": "F:\\University\\Semester2\\Game Development Group Project\\Terramental_Project\\LevelEditor\\LevelEditor\\LevelEditor.csproj",
+      "projectPath": "F:\\University\\Semester2\\Game Development Group Project\\Terramental_Project\\LevelEditor\\Terramental_LevelEditor\\LevelEditor\\LevelEditor.csproj",
       "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
-      "outputPath": "F:\\University\\Semester2\\Game Development Group Project\\Terramental_Project\\LevelEditor\\LevelEditor\\obj\\",
+      "outputPath": "F:\\University\\Semester2\\Game Development Group Project\\Terramental_Project\\LevelEditor\\Terramental_LevelEditor\\LevelEditor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
