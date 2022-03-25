@@ -9,22 +9,32 @@ namespace LevelEditor
 {
     public class MapManager
     {
+        public static bool tileSelection = true;
+
         public List<Tile> tileList = new List<Tile>();
+        public List<Entity> entityList = new List<Entity>();
+
         public List<Texture2D> tileTextureList = new List<Texture2D>();
+        public List<Texture2D> entityTextureList = new List<Texture2D>();
+        public List<Vector2> entityScaleList = new List<Vector2>();
 
         private int _mapWidth;
         private int _mapHeight;
+
+        public int currentTileIndex = 1;
+        public int currentEntityIndex = 1;
         
         private int[,] _tileIndex;
         private int[,] _entityIndex;
 
         private MapData _mapData;
 
-        public MapManager(int mapWidth, int mapHeight, List<Texture2D> textureList)
+        public MapManager(int mapWidth, int mapHeight, List<Texture2D> tileTextures, List<Texture2D> entityTextures)
         {
             _mapWidth = mapWidth;
             _mapHeight = mapHeight;
-            tileTextureList = textureList;
+            tileTextureList = tileTextures;
+            entityTextureList = entityTextures;
             _tileIndex = new int[mapWidth, mapHeight];
             _entityIndex = new int[mapWidth, mapHeight];
 
@@ -37,16 +47,51 @@ namespace LevelEditor
             {
                 tile.Draw(spriteBatch);
             }
+
+            foreach(Entity entity in entityList)
+            {
+                entity.Draw(spriteBatch);
+            }
         }
 
-        public void ChangeTile(Tile tile, int index)
+        public void ChangeTile(Tile tile, bool deleteTile)
         {
             int tileIndex = tileList.IndexOf(tile);
 
-            if(index < tileTextureList.Count && tileIndex < tileList.Count)
+            if(currentTileIndex < tileTextureList.Count && tileIndex < tileList.Count)
             {
-                tileList[tileIndex].TileTexture = tileTextureList[index];
-                _tileIndex[tile.TileRectangle.X / 64, tile.TileRectangle.Y / 64] = index;
+                if(!deleteTile)
+                {
+                    tileList[tileIndex].TileTexture = tileTextureList[currentTileIndex];
+                    _tileIndex[tile.TileRectangle.X / 64, tile.TileRectangle.Y / 64] = currentTileIndex;
+                }
+                else
+                {
+                    tileList[tileIndex].TileTexture = tileTextureList[0];
+                    _tileIndex[tile.TileRectangle.X / 64, tile.TileRectangle.Y / 64] = 0;
+                }
+            }
+        }
+
+        public void ChangeEntity(Entity entity, bool deleteEntity)
+        {
+            int entityindex = entityList.IndexOf(entity);
+
+            if(currentEntityIndex < entityTextureList.Count && entityindex < entityList.Count)
+            {
+                if(!deleteEntity)
+                {
+                    entityList[entityindex].EntityTexture = entityTextureList[currentEntityIndex];
+                    _entityIndex[entity.EntityRectangle.X / entity.EntityRectangle.Width, entity.EntityRectangle.Y / entity.EntityRectangle.Height] = currentEntityIndex;
+                    entity.EntityRectangle = new Rectangle(entity.EntityRectangle.X, entity.EntityRectangle.Y, entity.EntityTexture.Width, entity.EntityTexture.Height);
+                    entity.IsActive = true;
+                }
+                else
+                {
+                    entityList[entityindex].EntityTexture = entityTextureList[0];
+                    _entityIndex[entity.EntityRectangle.X / entity.EntityRectangle.Width, entity.EntityRectangle.Y / entity.EntityRectangle.Height] = 0;
+                    entity.IsActive = false;
+                }
             }
         }
 
@@ -58,6 +103,12 @@ namespace LevelEditor
                 {
                     Tile tile = new Tile(tileTextureList[0], new Vector2(x * 64, y * 64), new Vector2(64, 64), false, false);
                     tileList.Add(tile);
+
+                    Entity entity = new Entity(entityTextureList[0], new Vector2(x * 64, y * 64), new Vector2(64, 64));
+
+                    entity.IsActive = false;
+
+                    entityList.Add(entity);
 
                     _tileIndex[x, y] = 0;
                     _entityIndex[x, y] = 0;
