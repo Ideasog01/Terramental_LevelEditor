@@ -10,7 +10,7 @@ Welcome to this guide for the Level Editor.
 
 /// Exporting and Importing Map Data /// Step-By-Step Guide ///
 
-(1) To export the Map Data, simply use the Space key to save the Level.
+(1) To export the Map Data, simply use the Enter key to save the Level.
 (2) Locate the MapData.JSON file located in the netcoreapp3.1 folder. 'Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1'
 (3) Copy the MapData.JSON file.
 (4) Paste the MapData.JSON file in the equivalant folder in the Terramental Project.
