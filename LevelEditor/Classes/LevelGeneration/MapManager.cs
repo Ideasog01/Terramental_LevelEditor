@@ -135,6 +135,30 @@ namespace LevelEditor
             MapData newMapData = JsonConvert.DeserializeObject<MapData>(strResultJson);
             _mapData = newMapData;
 
+            int index = 0;
+
+            for (int x = 0; x < _mapWidth; x++)
+            {
+                for (int y = 0; y < _mapHeight; y++)
+                {
+                    if(index < tileList.Count)
+                    {
+                        tileList[index].TileTexture = tileTextureList[_mapData._tileMap[x, y]];
+
+                        if(_mapData._entityMap[x, y] > 0)
+                        {
+                            Entity entity = entityList[index];
+
+                            entity.EntityTexture = entityTextureList[_mapData._entityMap[x, y]];
+                            entity.EntityRectangle = new Rectangle(entity.EntityRectangle.X, entity.EntityRectangle.Y, entity.EntityTexture.Width, entity.EntityTexture.Height);
+                            entity.IsActive = true;
+                        }
+
+                        index++;
+                        
+                    }
+                }
+            }
         }
     }
 }

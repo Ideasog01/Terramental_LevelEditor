@@ -86,6 +86,11 @@ namespace LevelEditor
                 }
             }
 
+            if(oldKeyboardState.IsKeyDown(Keys.L) && _currentKeyboardState.IsKeyUp(Keys.L))
+            {
+                _mapManager.LoadMapData();
+            }
+
             if (oldMouseState.LeftButton == ButtonState.Pressed && _currentMouseState.LeftButton == ButtonState.Released)
             {
                 LeftMouseButton(_camController.ScreenToWorldSpace(new Vector2(oldMouseState.Position.X, oldMouseState.Position.Y)));

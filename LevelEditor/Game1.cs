@@ -62,6 +62,7 @@ namespace LevelEditor
             entityTextureList.Add(GetTexture("Entities/Fire_Pickup")); //3
             entityTextureList.Add(GetTexture("Entities/Water_Pickup")); //4
             entityTextureList.Add(GetTexture("Entities/Snow_Pickup")); //5
+            entityTextureList.Add(GetTexture("Entities/Collectible")); //6
 
             _mapManager = new MapManager(28, 20, tileTextureList, entityTextureList);
             _cameraTarget = new FollowTarget(new Vector2(0, 0), GetTexture("Tiles/DefaultTile"));
