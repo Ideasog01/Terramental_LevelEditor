@@ -150,7 +150,8 @@ namespace LevelEditor
                             Entity entity = entityList[index];
 
                             entity.EntityTexture = entityTextureList[_mapData._entityMap[x, y]];
-                            entity.EntityRectangle = new Rectangle(entity.EntityRectangle.X, entity.EntityRectangle.Y, entity.EntityTexture.Width, entity.EntityTexture.Height);
+                            entity.EntityRectangle = new Rectangle(entity.EntityRectangle.X, entity.EntityRectangle.Y, entity.EntityTexture.Width, 
+                                entity.EntityTexture.Height);
                             entity.IsActive = true;
                         }
 

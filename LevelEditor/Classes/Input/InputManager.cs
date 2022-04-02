@@ -91,12 +91,12 @@ namespace LevelEditor
                 _mapManager.LoadMapData();
             }
 
-            if (oldMouseState.LeftButton == ButtonState.Pressed && _currentMouseState.LeftButton == ButtonState.Released)
+            if (oldMouseState.LeftButton == ButtonState.Pressed)
             {
                 LeftMouseButton(_camController.ScreenToWorldSpace(new Vector2(oldMouseState.Position.X, oldMouseState.Position.Y)));
             }
 
-            if (oldMouseState.RightButton == ButtonState.Pressed && _currentMouseState.RightButton == ButtonState.Released)
+            if (oldMouseState.RightButton == ButtonState.Pressed)
             {
                 RightMouseButton(_camController.ScreenToWorldSpace(new Vector2(oldMouseState.Position.X, oldMouseState.Position.Y)));
             }

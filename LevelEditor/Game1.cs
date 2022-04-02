@@ -52,8 +52,17 @@ namespace LevelEditor
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
             List<Texture2D> tileTextureList = new List<Texture2D>();
-            tileTextureList.Add(GetTexture("Tiles/DefaultTile"));
-            tileTextureList.Add(GetTexture("Tiles/Tile-Fire"));
+            tileTextureList.Add(GetTexture("Tiles/DefaultTile")); //0
+            tileTextureList.Add(GetTexture("Tiles/Tile_Sand")); //1
+            tileTextureList.Add(GetTexture("Tiles/Tile_Filler")); //2
+            tileTextureList.Add(GetTexture("Tiles/Right_Corner")); //3
+            tileTextureList.Add(GetTexture("Tiles/Left_Slide")); //4
+            tileTextureList.Add(GetTexture("Tiles/Right_Slide")); //5
+            tileTextureList.Add(GetTexture("Tiles/First_Sky_Tile")); //6
+            tileTextureList.Add(GetTexture("Tiles/Second_Sky_Tile")); //7
+            tileTextureList.Add(GetTexture("Tiles/Third_Sky_Tile")); //8
+            tileTextureList.Add(GetTexture("Tiles/Fourth_Sky_Tile")); //9
+            tileTextureList.Add(GetTexture("Tiles/Left_Corner")); //10
 
             List<Texture2D> entityTextureList = new List<Texture2D>();
             entityTextureList.Add(GetTexture("Tiles/DefaultTile")); //0
