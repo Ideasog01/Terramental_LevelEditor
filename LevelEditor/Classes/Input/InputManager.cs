@@ -15,6 +15,9 @@ namespace LevelEditor
         private KeyboardState _currentKeyboardState = Keyboard.GetState();
         private MouseState _currentMouseState = Mouse.GetState();
 
+        private Tile _highlightedTile;
+        private Entity _highlightedEntity;
+
         public InputManager(FollowTarget camTarget, MapManager mapManager, CameraController camController)
         {
             _camTarget = camTarget;
@@ -56,7 +59,25 @@ namespace LevelEditor
                 }
             }
 
-            if(oldKeyboardState.IsKeyDown(Keys.Space) && _currentKeyboardState.IsKeyUp(Keys.Space))
+            if(oldKeyboardState.IsKeyDown(Keys.I) && _currentKeyboardState.IsKeyUp(Keys.I))
+            {
+                if(MapManager.tileSelection && _highlightedTile != null)
+                {
+                    _mapManager.currentTileIndex = _mapManager.tileTextureList.IndexOf(_highlightedTile.TileTexture);
+                    _highlightedTile = null;
+                }
+                
+                if(!MapManager.tileSelection && _highlightedEntity != null)
+                {
+                    if(_highlightedEntity.IsActive)
+                    {
+                        _mapManager.currentEntityIndex = _mapManager.entityTextureList.IndexOf(_highlightedEntity.EntityTexture);
+                        _highlightedEntity = null;
+                    }
+                }
+            }
+
+            if(oldKeyboardState.IsKeyDown(Keys.Right) && _currentKeyboardState.IsKeyUp(Keys.Right))
             {
                 if(MapManager.tileSelection)
                 {
@@ -86,7 +107,37 @@ namespace LevelEditor
                 }
             }
 
-            if(oldKeyboardState.IsKeyDown(Keys.L) && _currentKeyboardState.IsKeyUp(Keys.L))
+            if (oldKeyboardState.IsKeyDown(Keys.Left) && _currentKeyboardState.IsKeyUp(Keys.Left))
+            {
+                if (MapManager.tileSelection)
+                {
+                    int index = _mapManager.currentTileIndex;
+
+                    index--;
+
+                    if (index < 0)
+                    {
+                        index = _mapManager.tileTextureList.Count - 1;
+                    }
+
+                    _mapManager.currentTileIndex = index;
+                }
+                else
+                {
+                    int index = _mapManager.currentEntityIndex;
+
+                    index--;
+
+                    if (index < 0)
+                    {
+                        index = _mapManager.entityTextureList.Count - 1;
+                    }
+
+                    _mapManager.currentEntityIndex = index;
+                }
+            }
+
+            if (oldKeyboardState.IsKeyDown(Keys.L) && _currentKeyboardState.IsKeyUp(Keys.L))
             {
                 _mapManager.LoadMapData();
             }
@@ -131,7 +182,7 @@ namespace LevelEditor
                 _camTarget.TargetPosition += new Vector2(-5, 0);
             }
 
-            if(oldKeyboardState.IsKeyDown(Keys.Enter))
+            if(oldKeyboardState.IsKeyDown(Keys.Enter) && _currentKeyboardState.IsKeyUp(Keys.Enter))
             {
                 _mapManager.SaveMapData();
             }
@@ -146,6 +197,7 @@ namespace LevelEditor
                     if (tile.TileRectangle.Contains(mousePosition))
                     {
                         tile.TileColor = Color.Red;
+                        _highlightedTile = tile;
                     }
                     else
                     {
@@ -160,6 +212,7 @@ namespace LevelEditor
                     if(entity.EntityRectangle.Contains(mousePosition))
                     {
                         entity.EntityColor = Color.Red;
+                        _highlightedEntity = entity;
                     }
                     else
                     {
