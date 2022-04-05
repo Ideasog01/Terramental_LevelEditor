@@ -77,7 +77,7 @@ namespace LevelEditor
         {
             foreach(Tile tile in tileList)
             {
-                tile.TileTexture = tileTextureList[currentTileIndex];
+                ChangeTile(tile, false);
             }
         }
 
