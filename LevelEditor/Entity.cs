@@ -21,6 +21,12 @@ namespace LevelEditor
             _entityRectangle = new Rectangle((int)_entityPosition.X, (int)_entityPosition.Y, (int)_entityScale.X, (int)_entityScale.Y);
         }
 
+        public Vector2 EntityPosition
+        {
+            get { return _entityPosition; }
+            set { _entityPosition = value; }
+        }
+
         public Rectangle EntityRectangle
         {
             get { return _entityRectangle; }

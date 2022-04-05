@@ -24,8 +24,8 @@ namespace LevelEditor
         public int currentTileIndex = 1;
         public int currentEntityIndex = 1;
         
-        private int[,] _tileIndex;
-        private int[,] _entityIndex;
+        private int[,] _tileMap;
+        private int[,] _entityMap;
 
         private MapData _mapData;
 
@@ -35,8 +35,8 @@ namespace LevelEditor
             _mapHeight = mapHeight;
             tileTextureList = tileTextures;
             entityTextureList = entityTextures;
-            _tileIndex = new int[mapWidth, mapHeight];
-            _entityIndex = new int[mapWidth, mapHeight];
+            _tileMap = new int[mapWidth, mapHeight];
+            _entityMap = new int[mapWidth, mapHeight];
 
             GenerateMap();
         }
@@ -63,13 +63,21 @@ namespace LevelEditor
                 if(!deleteTile)
                 {
                     tileList[tileIndex].TileTexture = tileTextureList[currentTileIndex];
-                    _tileIndex[tile.TileRectangle.X / 64, tile.TileRectangle.Y / 64] = currentTileIndex;
+                    _tileMap[tile.TileRectangle.X / 64, tile.TileRectangle.Y / 64] = currentTileIndex;
                 }
                 else
                 {
                     tileList[tileIndex].TileTexture = tileTextureList[0];
-                    _tileIndex[tile.TileRectangle.X / 64, tile.TileRectangle.Y / 64] = 0;
+                    _tileMap[tile.TileRectangle.X / 64, tile.TileRectangle.Y / 64] = 0;
                 }
+            }
+        }
+
+        public void FillMap()
+        {
+            foreach(Tile tile in tileList)
+            {
+                tile.TileTexture = tileTextureList[currentTileIndex];
             }
         }
 
@@ -82,14 +90,14 @@ namespace LevelEditor
                 if(!deleteEntity)
                 {
                     entityList[entityindex].EntityTexture = entityTextureList[currentEntityIndex];
-                    _entityIndex[entity.EntityRectangle.X / entity.EntityRectangle.Width, entity.EntityRectangle.Y / entity.EntityRectangle.Height] = currentEntityIndex;
+                    _entityMap[entity.EntityRectangle.X / entity.EntityRectangle.Width, entity.EntityRectangle.Y / entity.EntityRectangle.Height] = currentEntityIndex;
                     entity.EntityRectangle = new Rectangle(entity.EntityRectangle.X, entity.EntityRectangle.Y, entity.EntityTexture.Width, entity.EntityTexture.Height);
                     entity.IsActive = true;
                 }
                 else
                 {
                     entityList[entityindex].EntityTexture = entityTextureList[0];
-                    _entityIndex[entity.EntityRectangle.X / entity.EntityRectangle.Width, entity.EntityRectangle.Y / entity.EntityRectangle.Height] = 0;
+                    _entityMap[entity.EntityRectangle.X / entity.EntityRectangle.Width, entity.EntityRectangle.Y / entity.EntityRectangle.Height] = 0;
                     entity.IsActive = false;
                 }
             }
@@ -110,30 +118,35 @@ namespace LevelEditor
 
                     entityList.Add(entity);
 
-                    _tileIndex[x, y] = 0;
-                    _entityIndex[x, y] = 0;
+                    _tileMap[x, y] = 0;
+                    _entityMap[x, y] = 0;
                 }
             }
         }
 
         public void SaveMapData()
         {
-            _mapData = new MapData(_mapWidth, _mapHeight, _tileIndex, _entityIndex, "Level 1");
+            _mapData = null;
+            _mapData = new MapData(_mapWidth, _mapHeight, _tileMap, _entityMap, "Test Level");
 
             string strResultJson = JsonConvert.SerializeObject(_mapData);
             File.WriteAllText(@"MapData.json", strResultJson);
 
-            strResultJson = string.Empty;
             strResultJson = File.ReadAllText(@"MapData.json");
-
             _mapData = JsonConvert.DeserializeObject<MapData>(strResultJson);
         }
 
         public void LoadMapData()
         {
+            _mapData = null;
             string strResultJson = File.ReadAllText(@"MapData.json");
             MapData newMapData = JsonConvert.DeserializeObject<MapData>(strResultJson);
             _mapData = newMapData;
+
+            _tileMap = _mapData._tileMap;
+            _entityMap = _mapData._entityMap;
+            _mapWidth = _mapData._mapWidth;
+            _mapHeight = _mapData._mapHeight;
 
             int index = 0;
 
@@ -141,24 +154,25 @@ namespace LevelEditor
             {
                 for (int y = 0; y < _mapHeight; y++)
                 {
-                    if(index < tileList.Count)
+                    tileList[index].TileTexture = tileTextureList[_mapData._tileMap[x, y]];
+
+                    if (_mapData._entityMap[x, y] > 0)
                     {
-                        tileList[index].TileTexture = tileTextureList[_mapData._tileMap[x, y]];
+                        Entity entity = entityList[index];
 
-                        if(_mapData._entityMap[x, y] > 0)
-                        {
-                            Entity entity = entityList[index];
-
-                            entity.EntityTexture = entityTextureList[_mapData._entityMap[x, y]];
-                            entity.EntityRectangle = new Rectangle(entity.EntityRectangle.X, entity.EntityRectangle.Y, entity.EntityTexture.Width, 
-                                entity.EntityTexture.Height);
-                            entity.IsActive = true;
-                        }
-
-                        index++;
-                        
+                        entity.EntityTexture = entityTextureList[_mapData._entityMap[x, y]];
+                        entity.EntityRectangle = new Rectangle((int)entity.EntityPosition.X, (int)entity.EntityPosition.Y, entity.EntityTexture.Width, entity.EntityTexture.Height);
+                        entity.IsActive = true;
                     }
+
+                    index++;
                 }
+            }
+
+            //Ensures entities are visible
+            foreach(Entity entity in entityList)
+            {
+                entity.EntityColor = Color.White;
             }
         }
     }

@@ -154,3 +154,4 @@ F:\University\Semester2\Game Development Group Project\Terramental_Project\Level
 F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\Third_Sky_Tile.xnb
 F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\Tile_Filler.xnb
 F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\Tile_Sand.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\PlayerStart_Tile.xnb

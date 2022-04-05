@@ -10,6 +10,7 @@
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/Fire_Pickup.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/Health_Pickup.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/KnightCharacter_Sprite.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/PlayerStart_Tile.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/Snow_Pickup.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/Water_Pickup.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Text/ModeText.spritefont</File>
@@ -27,6 +28,7 @@
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Tiles/Tile-Fire.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
