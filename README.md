@@ -5,9 +5,11 @@ Welcome to this guide for the Level Editor.
 /// Button Map ///
 
 - TAB (The TAB key switches between Tile and Entity mode, allowing designers to quickly switch between adding tiles and entities).
-- Space (The Space Key cycles through each tile/entity and will eventually revert back to the first one).
+- Right/Left Arrow Key (The Arrow Keys can be used to cycle through each tile/entity).
 - Enter (The Enter Key saves the map data and exports it to a JSON file that can be found in the level editors netcoreapp3.1 folder. 'Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1').
 - L (Loads the Level from the MapData.JSON file).
+- F (Fills the entire map with the current selected tile. This is useful for backgrounds.
+- I (Gets the current highlighted tile/entity and sets this texture to the current one. This feature makes the level creation process easier).
 
 /// Exporting and Importing Map Data /// Step-By-Step Guide ///
 
@@ -22,7 +24,6 @@ Welcome to this guide for the Level Editor.
 
 (1) Ensure the MapData.JSON file is present in the correct folder: 'Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1'
 (2) Press the L Key
-(3) Press the TAB Key
 
 ///Coming Soon///
 
