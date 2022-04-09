@@ -115,7 +115,7 @@ namespace LevelEditor
 
                     index--;
 
-                    if (index < 0)
+                    if (index < 1)
                     {
                         index = _mapManager.tileTextureList.Count - 1;
                     }
@@ -128,7 +128,7 @@ namespace LevelEditor
 
                     index--;
 
-                    if (index < 0)
+                    if (index < 1)
                     {
                         index = _mapManager.entityTextureList.Count - 1;
                     }
