@@ -131,5 +131,12 @@
     "C:\\Users\\olive\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\olive\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file F:\\University\\Semester2\\Game Development Group Project\\Terramental_Project\\LevelEditor\\Terramental_LevelEditor\\LevelEditor\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 1, position 4096."
+    }
+  ]
 }

@@ -83,23 +83,18 @@ namespace LevelEditor
 
         public void ChangeEntity(Entity entity, bool deleteEntity)
         {
-            int entityindex = entityList.IndexOf(entity);
-
-            if(currentEntityIndex < entityTextureList.Count && entityindex < entityList.Count)
+            if (!deleteEntity)
             {
-                if(!deleteEntity)
-                {
-                    entityList[entityindex].EntityTexture = entityTextureList[currentEntityIndex];
-                    _entityMap[entity.EntityRectangle.X / entity.EntityRectangle.Width, entity.EntityRectangle.Y / entity.EntityRectangle.Height] = currentEntityIndex;
-                    entity.EntityRectangle = new Rectangle(entity.EntityRectangle.X, entity.EntityRectangle.Y, entity.EntityTexture.Width, entity.EntityTexture.Height);
-                    entity.IsActive = true;
-                }
-                else
-                {
-                    entityList[entityindex].EntityTexture = entityTextureList[0];
-                    _entityMap[entity.EntityRectangle.X / entity.EntityRectangle.Width, entity.EntityRectangle.Y / entity.EntityRectangle.Height] = 0;
-                    entity.IsActive = false;
-                }
+                entity.EntityTexture = entityTextureList[currentEntityIndex];
+                _entityMap[(int)entity.EntityPosition.X / entity.EntityRectangle.Width, (int)entity.EntityPosition.Y / entity.EntityRectangle.Height] = currentEntityIndex;
+                entity.EntityRectangle = new Rectangle(entity.EntityRectangle.X, entity.EntityRectangle.Y, entity.EntityTexture.Width, entity.EntityTexture.Height);
+                entity.IsActive = true;
+            }
+            else
+            {
+                entity.EntityTexture = entityTextureList[0];
+                _entityMap[(int)entity.EntityPosition.X / entity.EntityRectangle.Width, (int)entity.EntityPosition.Y / entity.EntityRectangle.Height] = 0;
+                entity.IsActive = false;
             }
         }
 

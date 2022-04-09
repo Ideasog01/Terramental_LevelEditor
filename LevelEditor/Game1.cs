@@ -73,7 +73,10 @@ namespace LevelEditor
             entityTextureList.Add(GetTexture("Entities/Snow_Pickup")); //5
             entityTextureList.Add(GetTexture("Entities/Collectible")); //6
             entityTextureList.Add(GetTexture("Entities/PlayerStart_Tile")); //7
-
+            entityTextureList.Add(GetTexture("Entities/FireTile")); //8
+            entityTextureList.Add(GetTexture("Entities/WaterTile")); //9
+            entityTextureList.Add(GetTexture("Entities/SnowTile")); //10
+            entityTextureList.Add(GetTexture("Entities/DialogueTrigger_Tile")); //11
 
             //Set the width, height, available textures and entities
             _mapManager = new MapManager(28, 20, tileTextureList, entityTextureList);
