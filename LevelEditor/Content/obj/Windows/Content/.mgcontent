@@ -4,6 +4,12 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Assets/Big_Palm.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Assets/Grass_1.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Assets/Grass_2.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Assets/Grass_3.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Assets/Palm_Tree.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Assets/Palm_Tree2.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Buttons/CycleButton.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Buttons/TileButton.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/Collectible.png</File>
@@ -32,6 +38,12 @@
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Tiles/Tile-Fire.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

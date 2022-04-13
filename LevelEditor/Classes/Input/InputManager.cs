@@ -17,6 +17,7 @@ namespace LevelEditor
 
         private Tile _highlightedTile;
         private Entity _highlightedEntity;
+        private Asset _highlightedAsset;
 
         public InputManager(FollowTarget camTarget, MapManager mapManager, CameraController camController)
         {
@@ -41,10 +42,17 @@ namespace LevelEditor
             {
                 if (MapManager.tileSelection)
                 {
+                    MapManager.entitySelection = true;
                     MapManager.tileSelection = false;
                 }
-                else
+                else if(MapManager.entitySelection)
                 {
+                    MapManager.entitySelection = false;
+                    MapManager.assetSelection = true;
+                }
+                else if(MapManager.assetSelection)
+                {
+                    MapManager.assetSelection = false;
                     MapManager.tileSelection = true;
                 }
 
@@ -56,6 +64,11 @@ namespace LevelEditor
                 foreach(Entity entity in _mapManager.entityList)
                 {
                     entity.EntityColor = Color.White;
+                }
+
+                foreach(Asset asset in _mapManager.assetList)
+                {
+                    asset.AssetColor = Color.White;
                 }
             }
 
@@ -75,6 +88,15 @@ namespace LevelEditor
                         _highlightedEntity = null;
                     }
                 }
+
+                if(!MapManager.assetSelection && _highlightedAsset != null)
+                {
+                    if(_highlightedAsset.IsActive)
+                    {
+                        _mapManager.currentAssetIndex = _mapManager.assetTextureList.IndexOf(_highlightedAsset.AssetTexture);
+                        _highlightedAsset = null;
+                    }
+                }
             }
 
             if(oldKeyboardState.IsKeyDown(Keys.Right) && _currentKeyboardState.IsKeyUp(Keys.Right))
@@ -92,7 +114,7 @@ namespace LevelEditor
 
                     _mapManager.currentTileIndex = index;
                 }
-                else
+                else if(MapManager.entitySelection)
                 {
                     int index = _mapManager.currentEntityIndex;
 
@@ -104,6 +126,19 @@ namespace LevelEditor
                     }
 
                     _mapManager.currentEntityIndex = index;
+                }
+                else if(MapManager.assetSelection)
+                {
+                    int index = _mapManager.currentAssetIndex;
+
+                    index++;
+
+                    if (index > _mapManager.assetTextureList.Count - 1)
+                    {
+                        index = 1;
+                    }
+
+                    _mapManager.currentAssetIndex = index;
                 }
             }
 
@@ -205,7 +240,7 @@ namespace LevelEditor
                     }
                 }
             }
-            else
+            else if(MapManager.entitySelection)
             {
                 foreach(Entity entity in _mapManager.entityList)
                 {
@@ -217,6 +252,21 @@ namespace LevelEditor
                     else
                     {
                         entity.EntityColor = Color.White;
+                    }
+                }
+            }
+            else if(MapManager.assetSelection)
+            {
+                foreach (Asset asset in _mapManager.assetList)
+                {
+                    if (asset.AssetRectangle.Contains(mousePosition))
+                    {
+                        asset.AssetColor = Color.Red;
+                        _highlightedAsset = asset;
+                    }
+                    else
+                    {
+                        asset.AssetColor = Color.White;
                     }
                 }
             }
@@ -234,7 +284,7 @@ namespace LevelEditor
                     }
                 }
             }
-            else
+            else if(MapManager.entitySelection)
             {
                 foreach (Entity entity in _mapManager.entityList)
                 {
@@ -244,11 +294,21 @@ namespace LevelEditor
                     }
                 }
             }
+            else if(MapManager.assetSelection)
+            {
+                foreach (Asset asset in _mapManager.assetList)
+                {
+                    if (asset.AssetRectangle.Contains(mousePosition))
+                    {
+                        _mapManager.ChangeAsset(asset, false);
+                    }
+                }
+            }
         }
 
         private void RightMouseButton(Vector2 mousePosition)
         {
-            if(MapManager.tileSelection)
+            if (MapManager.tileSelection)
             {
                 foreach (Tile tile in _mapManager.tileList)
                 {
@@ -258,13 +318,23 @@ namespace LevelEditor
                     }
                 }
             }
-            else
+            else if (MapManager.entitySelection)
             {
                 foreach (Entity entity in _mapManager.entityList)
                 {
                     if (entity.EntityRectangle.Contains(mousePosition))
                     {
                         _mapManager.ChangeEntity(entity, true);
+                    }
+                }
+            }
+            else if (MapManager.assetSelection)
+            {
+                foreach (Asset asset in _mapManager.assetList)
+                {
+                    if (asset.AssetRectangle.Contains(mousePosition))
+                    {
+                        _mapManager.ChangeAsset(asset, true);
                     }
                 }
             }

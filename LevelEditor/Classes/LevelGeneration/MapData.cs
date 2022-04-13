@@ -11,15 +11,17 @@ namespace LevelEditor
 
         public int[,] _tileMap;
         public int[,] _entityMap;
+        public int[,] _assetMap;
 
         public string _levelName;
 
-        public MapData(int mapWidth, int mapHeight, int[,] tileMap, int[,] entityMap, string levelName)
+        public MapData(int mapWidth, int mapHeight, int[,] tileMap, int[,] entityMap, int[,] assetMap, string levelName)
         {
             _mapWidth = mapWidth;
             _mapHeight = mapHeight;
             _tileMap = tileMap;
             _entityMap = entityMap;
+            _assetMap = assetMap;
             _levelName = levelName;
         }
     }

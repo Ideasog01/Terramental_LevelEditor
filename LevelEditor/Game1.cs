@@ -78,8 +78,18 @@ namespace LevelEditor
             entityTextureList.Add(GetTexture("Entities/SnowTile")); //10
             entityTextureList.Add(GetTexture("Entities/DialogueTrigger_Tile")); //11
 
+            //**** Change Asset Textures Based on Level ****
+            List<Texture2D> assetTextureList = new List<Texture2D>();
+            assetTextureList.Add(GetTexture("Tiles/DefaultTile")); //0
+            assetTextureList.Add(GetTexture("Assets/Big_Palm"));
+            assetTextureList.Add(GetTexture("Assets/Grass_1"));
+            assetTextureList.Add(GetTexture("Assets/Grass_2"));
+            assetTextureList.Add(GetTexture("Assets/Grass_3"));
+            assetTextureList.Add(GetTexture("Assets/Palm_Tree"));
+            assetTextureList.Add(GetTexture("Assets/Palm_Tree2"));
+
             //Set the width, height, available textures and entities
-            _mapManager = new MapManager(28, 20, tileTextureList, entityTextureList);
+            _mapManager = new MapManager(28, 20, tileTextureList, entityTextureList, assetTextureList);
             _cameraTarget = new FollowTarget(new Vector2(0, 0), GetTexture("Tiles/DefaultTile"));
             _playerCam = new CameraController();
             _inputManager = new InputManager(_cameraTarget, _mapManager, _playerCam);
@@ -100,9 +110,13 @@ namespace LevelEditor
             {
                 _modeString = "Tile Mode\nIndex = " + _mapManager.currentTileIndex;
             }
-            else
+            else if(MapManager.entitySelection)
             {
                 _modeString = "Entity Mode\nIndex = " + _mapManager.currentEntityIndex;
+            }
+            else if(MapManager.assetSelection)
+            {
+                _modeString = "Asset Mode\nIndex = " + _mapManager.currentAssetIndex;
             }
 
             base.Update(gameTime);
