@@ -77,6 +77,8 @@ namespace LevelEditor
             entityTextureList.Add(GetTexture("Entities/WaterTile")); //9
             entityTextureList.Add(GetTexture("Entities/SnowTile")); //10
             entityTextureList.Add(GetTexture("Entities/DialogueTrigger_Tile")); //11
+            entityTextureList.Add(GetTexture("Entities/Collectible")); //12
+            entityTextureList.Add(GetTexture("Entities/Collectible")); //13
 
             //**** Change Asset Textures Based on Level ****
             List<Texture2D> assetTextureList = new List<Texture2D>();
