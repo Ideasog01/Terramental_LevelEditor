@@ -127,7 +127,8 @@ namespace LevelEditor
 
         public void DeleteAsset(Asset asset)
         {
-            assetIndexList[assetList.IndexOf(asset)] = 0;
+            assetIndexList.RemoveAt(assetList.IndexOf(asset));
+            assetPositionList.RemoveAt(assetList.IndexOf(asset));
             assetList.Remove(asset);
             asset.IsActive = false;
         }

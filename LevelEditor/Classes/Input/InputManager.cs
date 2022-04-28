@@ -67,6 +67,13 @@ namespace LevelEditor
                 }
             }
 
+            if(oldKeyboardState.IsKeyDown(Keys.C) && _currentKeyboardState.IsKeyUp(Keys.C))
+            {
+                _mapManager.assetList.Clear();
+                _mapManager.assetIndexList.Clear();
+                _mapManager.assetPositionList.Clear();
+            }
+
             if(oldKeyboardState.IsKeyDown(Keys.I) && _currentKeyboardState.IsKeyUp(Keys.I))
             {
                 if(MapManager.tileSelection && _highlightedTile != null)
