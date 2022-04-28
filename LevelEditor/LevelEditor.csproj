@@ -23,6 +23,8 @@
     <MonoGameContentReference Include="Content\Content.mgcb" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Content\Assets\" />
     <Folder Include="Content\Entities\" />
+    <Folder Include="Content\Tiles\" />
   </ItemGroup>
 </Project>

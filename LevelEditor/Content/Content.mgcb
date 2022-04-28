@@ -122,6 +122,18 @@
 /processorParam:TextureFormat=Color
 /build:Entities/Collectible.png
 
+#begin Entities/DarkMage_Sprite.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Entities/DarkMage_Sprite.png
+
 #begin Entities/DialogueTrigger_Tile.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -218,6 +230,18 @@
 /processorParam:TextureFormat=Color
 /build:Entities/SnowTile.png
 
+#begin Entities/Spikes.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Entities/Spikes.png
+
 #begin Entities/Water_Pickup.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -261,7 +285,7 @@
 /processorParam:TextureFormat=Color
 /build:Tiles/DefaultTile.png
 
-#begin Tiles/First_Sky_Tile.png
+#begin Tiles/WaterLevelTiles/Corner_Tile_UpwardsLeft.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -271,9 +295,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Tiles/First_Sky_Tile.png
+/build:Tiles/WaterLevelTiles/Corner_Tile_UpwardsLeft.png
 
-#begin Tiles/Fourth_Sky_Tile.png
+#begin Tiles/WaterLevelTiles/Corner_Tile_UpwardsRight.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -283,9 +307,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Tiles/Fourth_Sky_Tile.png
+/build:Tiles/WaterLevelTiles/Corner_Tile_UpwardsRight.png
 
-#begin Tiles/Left_Corner.png
+#begin Tiles/WaterLevelTiles/Grass_BottomLeft_CornerTile.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -295,9 +319,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Tiles/Left_Corner.png
+/build:Tiles/WaterLevelTiles/Grass_BottomLeft_CornerTile.png
 
-#begin Tiles/Left_Slide.png
+#begin Tiles/WaterLevelTiles/Grass_BottomRight_CornerTile.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -307,9 +331,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Tiles/Left_Slide.png
+/build:Tiles/WaterLevelTiles/Grass_BottomRight_CornerTile.png
 
-#begin Tiles/Right_Corner.png
+#begin Tiles/WaterLevelTiles/Grass_Left_CornerTile.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -319,9 +343,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Tiles/Right_Corner.png
+/build:Tiles/WaterLevelTiles/Grass_Left_CornerTile.png
 
-#begin Tiles/Right_Slide.png
+#begin Tiles/WaterLevelTiles/Grass_LeftSide_Tile.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -331,9 +355,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Tiles/Right_Slide.png
+/build:Tiles/WaterLevelTiles/Grass_LeftSide_Tile.png
 
-#begin Tiles/Second_Sky_Tile.png
+#begin Tiles/WaterLevelTiles/Grass_Right_CornerTile.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -343,9 +367,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Tiles/Second_Sky_Tile.png
+/build:Tiles/WaterLevelTiles/Grass_Right_CornerTile.png
 
-#begin Tiles/Third_Sky_Tile.png
+#begin Tiles/WaterLevelTiles/Grass_RightSlide_Tile.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -355,9 +379,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Tiles/Third_Sky_Tile.png
+/build:Tiles/WaterLevelTiles/Grass_RightSlide_Tile.png
 
-#begin Tiles/Tile_Filler.png
+#begin Tiles/WaterLevelTiles/Grass_Tile.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -367,9 +391,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Tiles/Tile_Filler.png
+/build:Tiles/WaterLevelTiles/Grass_Tile.png
 
-#begin Tiles/Tile_Sand.png
+#begin Tiles/WaterLevelTiles/Left_Corner.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -379,9 +403,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Tiles/Tile_Sand.png
+/build:Tiles/WaterLevelTiles/Left_Corner.png
 
-#begin Tiles/Tile-Fire.png
+#begin Tiles/WaterLevelTiles/Left_Slide.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -391,5 +415,161 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Tiles/Tile-Fire.png
+/build:Tiles/WaterLevelTiles/Left_Slide.png
+
+#begin Tiles/WaterLevelTiles/Right_Corner.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/WaterLevelTiles/Right_Corner.png
+
+#begin Tiles/WaterLevelTiles/Right_Slide.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/WaterLevelTiles/Right_Slide.png
+
+#begin Tiles/WaterLevelTiles/Sky_FifthTile.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/WaterLevelTiles/Sky_FifthTile.png
+
+#begin Tiles/WaterLevelTiles/Sky_FirstTile.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/WaterLevelTiles/Sky_FirstTile.png
+
+#begin Tiles/WaterLevelTiles/Sky_FourthTile.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/WaterLevelTiles/Sky_FourthTile.png
+
+#begin Tiles/WaterLevelTiles/Sky_SecondTile.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/WaterLevelTiles/Sky_SecondTile.png
+
+#begin Tiles/WaterLevelTiles/Sky_SeventhTile.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/WaterLevelTiles/Sky_SeventhTile.png
+
+#begin Tiles/WaterLevelTiles/Sky_SixthTile.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/WaterLevelTiles/Sky_SixthTile.png
+
+#begin Tiles/WaterLevelTiles/Sky_ThirdTile.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/WaterLevelTiles/Sky_ThirdTile.png
+
+#begin Tiles/WaterLevelTiles/Thin_Tile_64x32.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/WaterLevelTiles/Thin_Tile_64x32.png
+
+#begin Tiles/WaterLevelTiles/Tile_Filler.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/WaterLevelTiles/Tile_Filler.png
+
+#begin Tiles/WaterLevelTiles/Tile_Sand.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/WaterLevelTiles/Tile_Sand.png
+
+#begin Tiles/WaterLevelTiles/Tile_SandReverse.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/WaterLevelTiles/Tile_SandReverse.jpg
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/DialogueTrigger_Tile.png</SourceFile>
+  <SourceFile>E:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/DialogueTrigger_Tile.png</SourceFile>
   <SourceTime>2022-04-08T16:50:28.5194317+01:00</SourceTime>
-  <DestFile>D:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/bin/Windows/Entities/DialogueTrigger_Tile.xnb</DestFile>
-  <DestTime>2022-04-13T10:19:59.5563408+01:00</DestTime>
+  <DestFile>E:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/bin/Windows/Entities/DialogueTrigger_Tile.xnb</DestFile>
+  <DestTime>2022-04-27T16:40:08.4350967+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T17:17:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -53,16 +53,30 @@ namespace LevelEditor
 
             List<Texture2D> tileTextureList = new List<Texture2D>();
             tileTextureList.Add(GetTexture("Tiles/DefaultTile")); //0
-            tileTextureList.Add(GetTexture("Tiles/Tile_Sand")); //1
-            tileTextureList.Add(GetTexture("Tiles/Tile_Filler")); //2
-            tileTextureList.Add(GetTexture("Tiles/Right_Corner")); //3
-            tileTextureList.Add(GetTexture("Tiles/Left_Slide")); //4
-            tileTextureList.Add(GetTexture("Tiles/Right_Slide")); //5
-            tileTextureList.Add(GetTexture("Tiles/First_Sky_Tile")); //6
-            tileTextureList.Add(GetTexture("Tiles/Second_Sky_Tile")); //7
-            tileTextureList.Add(GetTexture("Tiles/Third_Sky_Tile")); //8
-            tileTextureList.Add(GetTexture("Tiles/Fourth_Sky_Tile")); //9
-            tileTextureList.Add(GetTexture("Tiles/Left_Corner")); //10
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Corner_Tile_UpwardsLeft")); //0
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Corner_Tile_UpwardsRight")); //1
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_BottomLeft_CornerTile")); //2
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_BottomRight_CornerTile")); //3
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_Left_CornerTile")); //4
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_LeftSide_Tile")); //5
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_Right_CornerTile")); //6
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_RightSlide_Tile")); //7
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_Tile")); //8
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Left_Corner")); //9
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Left_Slide")); //10
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Right_Corner")); //11
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Right_Slide")); //12
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_FifthTile")); //13
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_FirstTile")); //14
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_FourthTile")); //15
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_SecondTile")); //16
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_SeventhTile")); //17
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_SixthTile")); //18
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_ThirdTile")); //19
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Thin_Tile_64x32")); //20
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Tile_Filler")); //21
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Tile_Sand")); //22
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Tile_SandReverse")); //23
 
             List<Texture2D> entityTextureList = new List<Texture2D>();
             entityTextureList.Add(GetTexture("Tiles/DefaultTile")); //0
@@ -79,6 +93,8 @@ namespace LevelEditor
             entityTextureList.Add(GetTexture("Entities/DialogueTrigger_Tile")); //11
             entityTextureList.Add(GetTexture("Entities/Collectible")); //12
             entityTextureList.Add(GetTexture("Entities/Collectible")); //13
+            entityTextureList.Add(GetTexture("Entities/DarkMage_Sprite")); //14
+            entityTextureList.Add(GetTexture("Entities/Spikes")); //15
 
             //**** Change Asset Textures Based on Level ****
             List<Texture2D> assetTextureList = new List<Texture2D>();
@@ -91,7 +107,7 @@ namespace LevelEditor
             assetTextureList.Add(GetTexture("Assets/Palm_Tree2"));
 
             //Set the width, height, available textures and entities
-            _mapManager = new MapManager(28, 20, tileTextureList, entityTextureList, assetTextureList);
+            _mapManager = new MapManager(50, 20, tileTextureList, entityTextureList, assetTextureList);
             _cameraTarget = new FollowTarget(new Vector2(0, 0), GetTexture("Tiles/DefaultTile"));
             _playerCam = new CameraController();
             _inputManager = new InputManager(_cameraTarget, _mapManager, _playerCam);

@@ -1,28 +1,29 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework;
 using System.Collections.Generic;
-using System.Text;
+
 
 namespace LevelEditor
 {
     public class MapData
     {
-        public int _mapHeight;
-        public int _mapWidth;
+        public int mapHeight;
+        public int mapWidth;
 
-        public int[,] _tileMap;
-        public int[,] _entityMap;
-        public int[,] _assetMap;
+        public int[,] tileMap;
+        public int[,] entityMap;
+        public List<int> assetList = new List<int>();
+        public List<Vector2> assetPositionList = new List<Vector2>();
+        public string levelName;
 
-        public string _levelName;
-
-        public MapData(int mapWidth, int mapHeight, int[,] tileMap, int[,] entityMap, int[,] assetMap, string levelName)
+        public MapData(int mapWidth, int mapHeight, int[,] tileMap, int[,] entityMap, string levelName, List<int> assetList, List<Vector2> assetPositionList)
         {
-            _mapWidth = mapWidth;
-            _mapHeight = mapHeight;
-            _tileMap = tileMap;
-            _entityMap = entityMap;
-            _assetMap = assetMap;
-            _levelName = levelName;
+            this.mapWidth = mapWidth;
+            this.mapHeight = mapHeight;
+            this.tileMap = tileMap;
+            this.entityMap = entityMap;
+            this.levelName = levelName;
+            this.assetList = assetList;
+            this.assetPositionList = assetPositionList;
         }
     }
 }

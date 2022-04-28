@@ -10,15 +10,23 @@ namespace LevelEditor
         private Vector2 _assetScale;
         private Rectangle _assetRectangle;
         private Color _assetColor;
+        private int _assetTextureIndex;
         private bool _isActive;
 
-        public Asset(Texture2D texture, Vector2 position, Vector2 scale)
+        public Asset(Texture2D texture, Vector2 position, Vector2 scale, int assetTextureIndex)
         {
             _assetTexture = texture;
             _assetPosition = position;
             _assetScale = scale;
+            _assetTextureIndex = assetTextureIndex;
 
             _assetRectangle = new Rectangle((int)_assetPosition.X, (int)_assetPosition.Y, (int)_assetScale.X, (int)_assetScale.Y);
+        }
+
+        public int AssetTextureIndex
+        {
+            get { return _assetTextureIndex; }
+            set { _assetTextureIndex = value; }
         }
 
         public Vector2 AssetPosition

@@ -20,7 +20,8 @@ namespace LevelEditor
         public List<Texture2D> tileTextureList = new List<Texture2D>();
         public List<Texture2D> entityTextureList = new List<Texture2D>();
         public List<Texture2D> assetTextureList = new List<Texture2D>();
-        public List<Vector2> assetScaleList = new List<Vector2>();
+        public List<int> assetIndexList = new List<int>();
+        public List<Vector2> assetPositionList = new List<Vector2>();
 
         private int _mapWidth;
         private int _mapHeight;
@@ -31,7 +32,6 @@ namespace LevelEditor
         
         private int[,] _tileMap;
         private int[,] _entityMap;
-        private int[,] _assetMap;
 
         private MapData _mapData;
 
@@ -46,24 +46,23 @@ namespace LevelEditor
 
             _tileMap = new int[mapWidth, mapHeight];
             _entityMap = new int[mapWidth, mapHeight];
-            _assetMap = new int[mapWidth, mapHeight];
-
+                
             GenerateMap();
         }
 
         public void DrawTileMap(SpriteBatch spriteBatch)
         {
-            foreach(Tile tile in tileList)
+            foreach (Tile tile in tileList)
             {
                 tile.Draw(spriteBatch);
             }
 
-            foreach(Entity entity in entityList)
+            foreach (Entity entity in entityList)
             {
                 entity.Draw(spriteBatch);
             }
 
-            foreach(Asset asset in assetList)
+            foreach (Asset asset in assetList)
             {
                 asset.Draw(spriteBatch);
             }
@@ -113,21 +112,24 @@ namespace LevelEditor
             }
         }
 
-        public void ChangeAsset(Asset asset, bool deleteAsset)
+        public void NewAsset(Vector2 mousePos)
         {
-            if (!deleteAsset)
-            {
-                asset.AssetTexture = assetTextureList[currentAssetIndex];
-                _assetMap[(int)asset.AssetPosition.X / 64, (int)asset.AssetPosition.Y / 64] = currentAssetIndex;
-                asset.AssetRectangle = new Rectangle(asset.AssetRectangle.X, asset.AssetRectangle.Y, asset.AssetTexture.Width, asset.AssetTexture.Height);
-                asset.IsActive = true;
-            }
-            else
-            {
-                asset.AssetTexture = assetTextureList[0];
-                _assetMap[(int)asset.AssetPosition.X / asset.AssetRectangle.Width, (int)asset.AssetPosition.Y / asset.AssetRectangle.Height] = 0;
-                asset.IsActive = false;
-            }
+            Texture2D assetTexture = assetTextureList[currentAssetIndex];
+            Vector2 assetPosition = mousePos;
+
+            Asset asset = new Asset(assetTexture, assetPosition, new Vector2(assetTexture.Width, assetTexture.Height), currentAssetIndex);
+            asset.IsActive = true;
+            asset.AssetColor = Color.White;
+            assetList.Add(asset);
+            assetPositionList.Add(assetPosition);
+            assetIndexList.Add(currentAssetIndex);
+        }
+
+        public void DeleteAsset(Asset asset)
+        {
+            assetIndexList[assetList.IndexOf(asset)] = 0;
+            assetList.Remove(asset);
+            asset.IsActive = false;
         }
 
         private void GenerateMap()
@@ -145,13 +147,8 @@ namespace LevelEditor
 
                     entityList.Add(entity);
 
-                    Texture2D assetTexture = assetTextureList[0];
-                    Asset asset = new Asset(assetTexture, new Vector2(x * 64, y * 64), new Vector2(assetTexture.Width, assetTexture.Height));
-                    assetList.Add(asset);
-
                     _tileMap[x, y] = 0;
                     _entityMap[x, y] = 0;
-                    _assetMap[x, y] = 0;
                 }
             }
         }
@@ -159,7 +156,7 @@ namespace LevelEditor
         public void SaveMapData()
         {
             _mapData = null;
-            _mapData = new MapData(_mapWidth, _mapHeight, _tileMap, _entityMap, _assetMap, "Test Level");
+            _mapData = new MapData(_mapWidth, _mapHeight, _tileMap, _entityMap, "Test Level", assetIndexList, assetPositionList);
 
             string strResultJson = JsonConvert.SerializeObject(_mapData);
             File.WriteAllText(@"MapData.json", strResultJson);
@@ -175,11 +172,12 @@ namespace LevelEditor
             MapData newMapData = JsonConvert.DeserializeObject<MapData>(strResultJson);
             _mapData = newMapData;
 
-            _tileMap = _mapData._tileMap;
-            _entityMap = _mapData._entityMap;
-            _assetMap = _mapData._assetMap;
-            _mapWidth = _mapData._mapWidth;
-            _mapHeight = _mapData._mapHeight;
+            _tileMap = _mapData.tileMap;
+            _entityMap = _mapData.entityMap;
+            _mapWidth = _mapData.mapWidth;
+            _mapHeight = _mapData.mapHeight;
+            assetIndexList = _mapData.assetList;
+            assetPositionList = _mapData.assetPositionList;
 
             int index = 0;
 
@@ -187,26 +185,33 @@ namespace LevelEditor
             {
                 for (int y = 0; y < _mapHeight; y++)
                 {
-                    tileList[index].TileTexture = tileTextureList[_mapData._tileMap[x, y]];
+                    tileList[index].TileTexture = tileTextureList[_mapData.tileMap[x, y]];
 
-                    if (_mapData._entityMap[x, y] > 0)
+                    if (_mapData.entityMap[x, y] > 0)
                     {
                         Entity entity = entityList[index];
 
-                        entity.EntityTexture = entityTextureList[_mapData._entityMap[x, y]];
+                        entity.EntityTexture = entityTextureList[_mapData.entityMap[x, y]];
                         entity.EntityRectangle = new Rectangle((int)entity.EntityPosition.X, (int)entity.EntityPosition.Y, entity.EntityTexture.Width, entity.EntityTexture.Height);
                         entity.IsActive = true;
                         entity.EntityColor = Color.White;
-
-                        Asset asset = assetList[index];
-                        asset.AssetTexture = assetTextureList[_mapData._assetMap[x, y]];
-                        asset.AssetRectangle = new Rectangle((int)asset.AssetPosition.X, (int)asset.AssetPosition.Y, entity.EntityTexture.Width, entity.EntityTexture.Height);
-                        asset.IsActive = true;
-                        asset.AssetColor = Color.White;
                     }
 
                     index++;
                 }
+            }
+
+            assetList.Clear();
+
+            int assetCount = 0;
+
+            foreach(int assetIndex in assetIndexList)
+            {
+                Texture2D assetTexture = assetTextureList[assetIndex];
+                Asset asset = new Asset(assetTexture, assetPositionList[assetCount], new Vector2(assetTexture.Width, assetTexture.Height), assetIndex);
+                asset.IsActive = true;
+                assetList.Add(asset);
+                assetCount++;
             }
         }
     }
