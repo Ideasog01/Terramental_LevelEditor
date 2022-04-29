@@ -197,17 +197,12 @@ namespace LevelEditor
                 _mapManager.FillMap();
             }
 
-            if (oldMouseState.LeftButton == ButtonState.Pressed && MapManager.tileSelection)
+            if (oldMouseState.LeftButton == ButtonState.Pressed && _currentMouseState.LeftButton == ButtonState.Released)
             {
                 LeftMouseButton(_camController.ScreenToWorldSpace(new Vector2(oldMouseState.Position.X, oldMouseState.Position.Y)));
             }
 
-            if (oldMouseState.LeftButton == ButtonState.Pressed && _currentMouseState.LeftButton == ButtonState.Released && !MapManager.tileSelection)
-            {
-                LeftMouseButton(_camController.ScreenToWorldSpace(new Vector2(oldMouseState.Position.X, oldMouseState.Position.Y)));
-            }
-
-            if (oldMouseState.RightButton == ButtonState.Pressed)
+            if (oldMouseState.RightButton == ButtonState.Pressed && _currentMouseState.RightButton == ButtonState.Released)
             {
                 RightMouseButton(_camController.ScreenToWorldSpace(new Vector2(oldMouseState.Position.X, oldMouseState.Position.Y)));
             }
@@ -269,10 +264,6 @@ namespace LevelEditor
                         entity.EntityColor = Color.White;
                     }
                 }
-            }
-            else if(MapManager.assetSelection)
-            {
-                
             }
         }
 

@@ -328,3 +328,5 @@ F:\University\Semester2\Game Development Group Project\Terramental_Project\Level
 F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\WaterLevelTiles\Tile_Filler.xnb
 F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\WaterLevelTiles\Tile_Sand.xnb
 F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\WaterLevelTiles\Tile_SandReverse.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\Cannon_Left.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\Cannon_Right.xnb
