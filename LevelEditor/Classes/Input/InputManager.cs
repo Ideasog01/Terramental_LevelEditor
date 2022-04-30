@@ -197,10 +197,22 @@ namespace LevelEditor
                 _mapManager.FillMap();
             }
 
-            if (oldMouseState.LeftButton == ButtonState.Pressed && _currentMouseState.LeftButton == ButtonState.Released)
+            if(MapManager.tileSelection)
             {
-                LeftMouseButton(_camController.ScreenToWorldSpace(new Vector2(oldMouseState.Position.X, oldMouseState.Position.Y)));
+                if (oldMouseState.LeftButton == ButtonState.Pressed)
+                {
+                    LeftMouseButton(_camController.ScreenToWorldSpace(new Vector2(oldMouseState.Position.X, oldMouseState.Position.Y)));
+                }
             }
+            else
+            {
+                if (oldMouseState.LeftButton == ButtonState.Pressed && _currentMouseState.LeftButton == ButtonState.Released)
+                {
+                    LeftMouseButton(_camController.ScreenToWorldSpace(new Vector2(oldMouseState.Position.X, oldMouseState.Position.Y)));
+                }
+            }
+
+            
 
             if (oldMouseState.RightButton == ButtonState.Pressed && _currentMouseState.RightButton == ButtonState.Released)
             {

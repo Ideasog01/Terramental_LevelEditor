@@ -108,7 +108,16 @@ namespace LevelEditor
             {
                 entity.EntityTexture = entityTextureList[0];
                 _entityMap[(int)entity.EntityPosition.X / entity.EntityRectangle.Width, (int)entity.EntityPosition.Y / entity.EntityRectangle.Height] = 0;
+                entity.EntityRectangle = new Rectangle(entity.EntityRectangle.X, entity.EntityRectangle.Y, 64, 64);
                 entity.IsActive = false;
+
+                foreach(Entity entityInList in entityList)
+                {
+                    if(!entityInList.IsActive)
+                    {
+                        _entityMap[(int)entityInList.EntityPosition.X / entityInList.EntityRectangle.Width, (int)entityInList.EntityPosition.Y / entityInList.EntityRectangle.Height] = 0;
+                    }
+                }
             }
         }
 

@@ -109,7 +109,7 @@ namespace LevelEditor
             assetTextureList.Add(GetTexture("Assets/Palm_Tree2"));
 
             //Set the width, height, available textures and entities
-            _mapManager = new MapManager(80, 15, tileTextureList, entityTextureList, assetTextureList);
+            _mapManager = new MapManager(160, 15, tileTextureList, entityTextureList, assetTextureList);
             _cameraTarget = new FollowTarget(new Vector2(0, 0), GetTexture("Tiles/DefaultTile"));
             _playerCam = new CameraController();
             _inputManager = new InputManager(_cameraTarget, _mapManager, _playerCam);
