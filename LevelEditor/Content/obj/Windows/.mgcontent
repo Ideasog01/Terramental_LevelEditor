@@ -14,18 +14,24 @@
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Buttons/TileButton.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/Cannon_Left.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/Cannon_Right.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/Checkpoint.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/Collectible.png</File>
-    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/DarkMage_Sprite.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/DialogueTrigger_Tile.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/Fire_Pickup.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/FireKnight.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/FireMage.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/FireTile.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/Health_Pickup.png</File>
-    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/KnightCharacter_Sprite.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/PlayerStart_Tile.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/Snow_Pickup.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/SnowKnight.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/SnowMage.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/SnowTile.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/Spikes.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/TerramentalIcon.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/Water_Pickup.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/WaterKnight.png</File>
+    <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/WaterMage.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/WaterTile.png</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Text/ModeText.spritefont</File>
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Tiles/DefaultTile.png</File>
@@ -55,6 +61,12 @@
     <File>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Tile_SandReverse.jpg</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

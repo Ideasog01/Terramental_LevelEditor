@@ -80,23 +80,25 @@ namespace LevelEditor
 
             List<Texture2D> entityTextureList = new List<Texture2D>();
             entityTextureList.Add(GetTexture("Tiles/DefaultTile")); //0
-            entityTextureList.Add(GetTexture("Entities/KnightCharacter_Sprite")); //1
-            entityTextureList.Add(GetTexture("Entities/Health_Pickup")); // 2
-            entityTextureList.Add(GetTexture("Entities/Fire_Pickup")); //3
-            entityTextureList.Add(GetTexture("Entities/Water_Pickup")); //4
-            entityTextureList.Add(GetTexture("Entities/Snow_Pickup")); //5
-            entityTextureList.Add(GetTexture("Entities/Collectible")); //6
-            entityTextureList.Add(GetTexture("Entities/PlayerStart_Tile")); //7
-            entityTextureList.Add(GetTexture("Entities/FireTile")); //8
-            entityTextureList.Add(GetTexture("Entities/WaterTile")); //9
-            entityTextureList.Add(GetTexture("Entities/SnowTile")); //10
-            entityTextureList.Add(GetTexture("Entities/DialogueTrigger_Tile")); //11
-            entityTextureList.Add(GetTexture("Entities/Collectible")); //12
-            entityTextureList.Add(GetTexture("Entities/Collectible")); //13
-            entityTextureList.Add(GetTexture("Entities/DarkMage_Sprite")); //14
-            entityTextureList.Add(GetTexture("Entities/Spikes")); //15
-            entityTextureList.Add(GetTexture("Entities/Cannon_Right")); //16
-            entityTextureList.Add(GetTexture("Entities/Cannon_Left")); //17
+            entityTextureList.Add(GetTexture("Entities/PlayerStart_Tile")); //1
+            entityTextureList.Add(GetTexture("Entities/TerramentalIcon")); //2
+            entityTextureList.Add(GetTexture("Entities/FireKnight")); //3
+            entityTextureList.Add(GetTexture("Entities/WaterKnight")); //4
+            entityTextureList.Add(GetTexture("Entities/SnowKnight")); //5
+            entityTextureList.Add(GetTexture("Entities/FireMage")); //6
+            entityTextureList.Add(GetTexture("Entities/WaterMage")); //7
+            entityTextureList.Add(GetTexture("Entities/SnowMage")); //8
+            entityTextureList.Add(GetTexture("Entities/Health_Pickup")); //9
+            entityTextureList.Add(GetTexture("Entities/Collectible")); //10
+            entityTextureList.Add(GetTexture("Entities/Fire_Pickup")); //11
+            entityTextureList.Add(GetTexture("Entities/Water_Pickup")); //12
+            entityTextureList.Add(GetTexture("Entities/Snow_Pickup")); //13
+            entityTextureList.Add(GetTexture("Entities/FireTile")); //14
+            entityTextureList.Add(GetTexture("Entities/WaterTile")); //15
+            entityTextureList.Add(GetTexture("Entities/SnowTile")); //16
+            entityTextureList.Add(GetTexture("Entities/Spikes")); //17
+            entityTextureList.Add(GetTexture("Entities/Cannon_Right")); //18
+            entityTextureList.Add(GetTexture("Entities/Cannon_Left")); //19
 
             //**** Change Asset Textures Based on Level ****
             List<Texture2D> assetTextureList = new List<Texture2D>();
@@ -109,7 +111,7 @@ namespace LevelEditor
             assetTextureList.Add(GetTexture("Assets/Palm_Tree2"));
 
             //Set the width, height, available textures and entities
-            _mapManager = new MapManager(160, 15, tileTextureList, entityTextureList, assetTextureList);
+            _mapManager = new MapManager(120, 15, tileTextureList, entityTextureList, assetTextureList);
             _cameraTarget = new FollowTarget(new Vector2(0, 0), GetTexture("Tiles/DefaultTile"));
             _playerCam = new CameraController();
             _inputManager = new InputManager(_cameraTarget, _mapManager, _playerCam);

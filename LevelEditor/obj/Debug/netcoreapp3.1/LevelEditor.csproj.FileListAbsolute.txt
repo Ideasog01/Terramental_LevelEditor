@@ -330,3 +330,12 @@ F:\University\Semester2\Game Development Group Project\Terramental_Project\Level
 F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\WaterLevelTiles\Tile_SandReverse.xnb
 F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\Cannon_Left.xnb
 F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\Cannon_Right.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\Checkpoint.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\TerramentalIcon.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\FireKnight.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\FireMage.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\SnowEnemy.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\SnowKnight.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\SnowMage.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\WaterKnight.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\WaterMage.xnb

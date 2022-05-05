@@ -221,22 +221,22 @@ namespace LevelEditor
 
             if (oldKeyboardState.IsKeyDown(Keys.W))
             {
-                _camTarget.TargetPosition += new Vector2(0, -5);
+                _camTarget.TargetPosition += new Vector2(0, -15);
             }
 
             if (oldKeyboardState.IsKeyDown(Keys.S))
             {
-                _camTarget.TargetPosition += new Vector2(0, 5);
+                _camTarget.TargetPosition += new Vector2(0, 15);
             }
 
             if (oldKeyboardState.IsKeyDown(Keys.D))
             {
-                _camTarget.TargetPosition += new Vector2(5, 0);
+                _camTarget.TargetPosition += new Vector2(15, 0);
             }
 
             if (oldKeyboardState.IsKeyDown(Keys.A))
             {
-                _camTarget.TargetPosition += new Vector2(-5, 0);
+                _camTarget.TargetPosition += new Vector2(-15, 0);
             }
 
             if(oldKeyboardState.IsKeyDown(Keys.Enter) && _currentKeyboardState.IsKeyUp(Keys.Enter))
