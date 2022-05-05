@@ -81,7 +81,7 @@ namespace LevelEditor
             List<Texture2D> entityTextureList = new List<Texture2D>();
             entityTextureList.Add(GetTexture("Tiles/DefaultTile")); //0
             entityTextureList.Add(GetTexture("Entities/PlayerStart_Tile")); //1
-            entityTextureList.Add(GetTexture("Entities/TerramentalIcon")); //2
+            entityTextureList.Add(GetTexture("Entities/CampFire")); //2
             entityTextureList.Add(GetTexture("Entities/FireKnight")); //3
             entityTextureList.Add(GetTexture("Entities/WaterKnight")); //4
             entityTextureList.Add(GetTexture("Entities/SnowKnight")); //5

@@ -110,6 +110,18 @@
 /processorParam:TextureFormat=Color
 /build:Buttons/TileButton.png
 
+#begin Entities/CampFire.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Entities/CampFire.png
+
 #begin Entities/Cannon_Left.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -301,18 +313,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Entities/Spikes.png
-
-#begin Entities/TerramentalIcon.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Entities/TerramentalIcon.png
 
 #begin Entities/Water_Pickup.png
 /importer:TextureImporter

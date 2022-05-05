@@ -339,3 +339,4 @@ F:\University\Semester2\Game Development Group Project\Terramental_Project\Level
 F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\SnowMage.xnb
 F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\WaterKnight.xnb
 F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\WaterMage.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\CampFire.xnb
