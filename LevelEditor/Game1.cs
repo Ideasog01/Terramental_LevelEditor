@@ -53,30 +53,31 @@ namespace LevelEditor
 
             List<Texture2D> tileTextureList = new List<Texture2D>();
             tileTextureList.Add(GetTexture("Tiles/DefaultTile")); //0
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Corner_Tile_UpwardsLeft")); //0
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Corner_Tile_UpwardsRight")); //1
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_BottomLeft_CornerTile")); //2
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_BottomRight_CornerTile")); //3
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_Left_CornerTile")); //4
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_LeftSide_Tile")); //5
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_Right_CornerTile")); //6
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_RightSlide_Tile")); //7
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_Tile")); //8
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Left_Corner")); //9
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Left_Slide")); //10
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Right_Corner")); //11
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Right_Slide")); //12
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_FifthTile")); //13
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_FirstTile")); //14
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_FourthTile")); //15
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_SecondTile")); //16
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_SeventhTile")); //17
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_SixthTile")); //18
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_ThirdTile")); //19
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Thin_Tile_64x32")); //20
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Tile_Filler")); //21
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Tile_Sand")); //22
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Tile_SandReverse")); //23
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Snow_GroundTile")); //0
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Snow_RightCorner")); //1
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Snow_RighSlide")); //2
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Snow_LeftCorner")); //3
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Snow_LeftSlide")); //4
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Snow_DownRightCorner")); //5
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Snow_DownLeftCorner")); //6
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Snow_Backwards")); //7
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Snow_Filler")); //8
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Ice_GroundTile")); //9
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Ice_RightCorner")); //10
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Ice_RightSlide")); //11
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Ice_LeftCorner")); //12
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Sky_FirstTile")); //13
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Sky_SecondTile")); //14
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Sky_ThirdTile")); //15
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_FourthTile")); //16
+            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_FifthTile")); //17
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Sky_SixthTile")); //18
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Sky_SeventhTile")); //19
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Ice_LeftSlide")); //20
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Ice_DownRightCorner")); //21
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Ice_DownLeftCorner")); //22
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Ice_Filler")); //23
+            tileTextureList.Add(GetTexture("Tiles/SnowLevelTiles/Ice_Backwards")); //24
 
             List<Texture2D> entityTextureList = new List<Texture2D>();
             entityTextureList.Add(GetTexture("Tiles/DefaultTile")); //0
@@ -103,10 +104,10 @@ namespace LevelEditor
             //**** Change Asset Textures Based on Level ****
             List<Texture2D> assetTextureList = new List<Texture2D>();
             assetTextureList.Add(GetTexture("Tiles/DefaultTile")); //0
-            assetTextureList.Add(GetTexture("Assets/Big_Palm"));
-            assetTextureList.Add(GetTexture("Assets/Grass_1"));
-            assetTextureList.Add(GetTexture("Assets/Grass_2"));
-            assetTextureList.Add(GetTexture("Assets/Grass_3"));
+            assetTextureList.Add(GetTexture("Assets/Igloo1"));
+            assetTextureList.Add(GetTexture("Assets/Snow_Pile"));
+            assetTextureList.Add(GetTexture("Assets/Snow_Pile2"));
+            assetTextureList.Add(GetTexture("Assets/Snow_Pine"));
             assetTextureList.Add(GetTexture("Assets/Palm_Tree"));
             assetTextureList.Add(GetTexture("Assets/Palm_Tree2"));
 
