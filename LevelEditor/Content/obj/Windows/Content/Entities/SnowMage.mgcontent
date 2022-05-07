@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/SnowMage.png</SourceFile>
-  <SourceTime>2022-05-05T13:52:12.2119283+01:00</SourceTime>
-  <DestFile>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/bin/Windows/Content/Entities/SnowMage.xnb</DestFile>
-  <DestTime>2022-05-05T13:55:11.7264345+01:00</DestTime>
+  <SourceFile>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/SnowMage.png</SourceFile>
+  <SourceTime>2022-05-07T20:56:21.6962298+01:00</SourceTime>
+  <DestFile>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/bin/Windows/Content/Entities/SnowMage.xnb</DestFile>
+  <DestTime>2022-05-07T20:57:10.3990573+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T17:17:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

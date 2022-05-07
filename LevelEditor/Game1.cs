@@ -99,6 +99,7 @@ namespace LevelEditor
             entityTextureList.Add(GetTexture("Entities/Spikes")); //17
             entityTextureList.Add(GetTexture("Entities/Cannon_Right")); //18
             entityTextureList.Add(GetTexture("Entities/Cannon_Left")); //19
+            entityTextureList.Add(GetTexture("Entities/SnowTile")); // 20
 
             //**** Change Asset Textures Based on Level ****
             List<Texture2D> assetTextureList = new List<Texture2D>();
