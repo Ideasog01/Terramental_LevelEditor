@@ -220,6 +220,7 @@ namespace LevelEditor
                 Texture2D assetTexture = assetTextureList[assetIndex];
                 Asset asset = new Asset(assetTexture, assetPositionList[assetCount], new Vector2(assetTexture.Width, assetTexture.Height), assetIndex);
                 asset.IsActive = true;
+                asset.AssetColor = Color.White;
                 assetList.Add(asset);
                 assetCount++;
             }

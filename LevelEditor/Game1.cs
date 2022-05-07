@@ -151,7 +151,6 @@ namespace LevelEditor
             _spriteBatch.Begin(transformMatrix: _playerCam.Transform);
 
             _mapManager.DrawTileMap(_spriteBatch);
-            // _cameraTarget.Draw(_spriteBatch);
 
             _editor.DrawButtons(_spriteBatch);
 
