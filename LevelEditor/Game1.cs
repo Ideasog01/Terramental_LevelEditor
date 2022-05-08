@@ -62,10 +62,10 @@ namespace LevelEditor
             tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire_UpwradsLeftCorner")); //6
             tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire_UpwardsTile")); //7
             tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire_Filler")); //8
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Left_Corner")); //9
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Left_Slide")); //10
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Right_Corner")); //11
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Right_Slide")); //12
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_GroundTile")); //9
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_RightCorner")); //10
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_RightSlide")); //11
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_LeftCorner")); //12
             tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_FifthTile")); //13
             tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/FireSky_FirstFrame")); //13
             tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/FireSky_SecondFrame")); //14
@@ -74,12 +74,14 @@ namespace LevelEditor
             tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/FireSky_FifthFrame")); //17
             tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/FireSky_SeventhFrame")); //18
             tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/FireSky_EightFrame")); //19
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Thin_Tile_64x32")); //20
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Tile_Filler")); //21
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Tile_Sand")); //22
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Tile_SandReverse")); //23
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_LeftSlide")); //20
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_DownRightCorner")); //21
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_DownLeftCorner")); //22
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_Filler")); //23
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_Backwards")); //24
 
-            List<Texture2D> entityTextureList = new List<Texture2D>();
+
+            List <Texture2D> entityTextureList = new List<Texture2D>();
             entityTextureList.Add(GetTexture("Tiles/DefaultTile")); //0
             entityTextureList.Add(GetTexture("Entities/PlayerStart_Tile")); //1
             entityTextureList.Add(GetTexture("Entities/CampFire")); //2

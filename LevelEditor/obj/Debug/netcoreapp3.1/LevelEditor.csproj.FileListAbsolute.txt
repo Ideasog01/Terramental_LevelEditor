@@ -593,3 +593,12 @@ D:\GitHub\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\runtimes\w
 D:\GitHub\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
 D:\GitHub\Terramental_LevelEditor\LevelEditor\obj\Debug\netcoreapp3.1\LevelEditor.csproj.CopyComplete
 D:\GitHub\Terramental_LevelEditor\LevelEditor\obj\Debug\netcoreapp3.1\LevelEditor.genruntimeconfig.cache
+D:\GitHub\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_Backwards.xnb
+D:\GitHub\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_DownLeftCorner.xnb
+D:\GitHub\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_DownRightCorner.xnb
+D:\GitHub\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_Filler.xnb
+D:\GitHub\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_GroundTile.xnb
+D:\GitHub\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_LeftCorner.xnb
+D:\GitHub\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_LeftSlide.xnb
+D:\GitHub\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_RightCorner.xnb
+D:\GitHub\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_RightSlide.xnb

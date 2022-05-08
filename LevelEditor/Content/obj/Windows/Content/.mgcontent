@@ -51,6 +51,15 @@
     <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire_UpwardsRightCorner.png</File>
     <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire_UpwardsTile.png</File>
     <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire_UpwradsLeftCorner.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire2_Backwards.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire2_DownLeftCorner.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire2_DownRightCorner.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire2_Filler.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire2_GroundTile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire2_LeftCorner.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire2_LeftSlide.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire2_RightCorner.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire2_RightSlide.png</File>
     <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Corner_Tile_UpwardsLeft.png</File>
     <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Corner_Tile_UpwardsRight.png</File>
     <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Grass_BottomLeft_CornerTile.png</File>
@@ -92,6 +101,15 @@
     <File>Tiles/FireLevelTiles/FireSky_SecondFrame.png</File>
     <File>Tiles/FireLevelTiles/FireSky_SeventhFrame.png</File>
     <File>Tiles/FireLevelTiles/FireSky_Thirdframe.png</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
