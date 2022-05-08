@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/SnowMage.png</SourceFile>
-  <SourceTime>2022-05-05T13:52:12.2119283+01:00</SourceTime>
-  <DestFile>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/bin/Windows/Entities/SnowMage.xnb</DestFile>
-  <DestTime>2022-05-07T15:07:22.1765177+01:00</DestTime>
+  <SourceFile>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/SnowMage.png</SourceFile>
+  <SourceTime>2022-05-05T17:30:07.2022134+00:00</SourceTime>
+  <DestFile>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/bin/Windows/Entities/SnowMage.xnb</DestFile>
+  <DestTime>2022-05-08T19:48:45.3072864+00:00</DestTime>
   <Importer>TextureImporter</Importer>
-  <ImporterTime>2020-08-10T17:17:54+01:00</ImporterTime>
+  <ImporterTime>2020-08-10T16:17:54+00:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
-  <ProcessorTime>2020-08-10T17:17:54+01:00</ProcessorTime>
+  <ProcessorTime>2020-08-10T16:17:54+00:00</ProcessorTime>
   <Parameters>
     <Key>ColorKeyColor</Key>
     <Value>255,0,255,255</Value>

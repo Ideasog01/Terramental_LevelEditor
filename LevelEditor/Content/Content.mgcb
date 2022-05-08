@@ -110,6 +110,90 @@
 /processorParam:TextureFormat=Color
 /build:Buttons/TileButton.png
 
+#begin C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_EightFrame.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_EightFrame.png;Tiles/FireLevelTiles/FireSky_EightFrame.png
+
+#begin C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_FifthFrame.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_FifthFrame.png;Tiles/FireLevelTiles/FireSky_FifthFrame.png
+
+#begin C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_FirstFrame.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_FirstFrame.png;Tiles/FireLevelTiles/FireSky_FirstFrame.png
+
+#begin C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_FourthFrame.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_FourthFrame.png;Tiles/FireLevelTiles/FireSky_FourthFrame.png
+
+#begin C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_SecondFrame.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_SecondFrame.png;Tiles/FireLevelTiles/FireSky_SecondFrame.png
+
+#begin C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_SeventhFrame.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_SeventhFrame.png;Tiles/FireLevelTiles/FireSky_SeventhFrame.png
+
+#begin C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_Thirdframe.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_Thirdframe.png;Tiles/FireLevelTiles/FireSky_Thirdframe.png
+
 #begin Entities/CampFire.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -380,6 +464,114 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Tiles/DefaultTile.png
+
+#begin Tiles/FireLevelTiles/Fire_Filler.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/FireLevelTiles/Fire_Filler.png
+
+#begin Tiles/FireLevelTiles/Fire_LeftCorner.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/FireLevelTiles/Fire_LeftCorner.png
+
+#begin Tiles/FireLevelTiles/Fire_LeftSlide.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/FireLevelTiles/Fire_LeftSlide.png
+
+#begin Tiles/FireLevelTiles/Fire_RightCorner.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/FireLevelTiles/Fire_RightCorner.png
+
+#begin Tiles/FireLevelTiles/Fire_RightSlide.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/FireLevelTiles/Fire_RightSlide.png
+
+#begin Tiles/FireLevelTiles/Fire_Tile.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/FireLevelTiles/Fire_Tile.png
+
+#begin Tiles/FireLevelTiles/Fire_UpwardsRightCorner.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/FireLevelTiles/Fire_UpwardsRightCorner.png
+
+#begin Tiles/FireLevelTiles/Fire_UpwardsTile.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/FireLevelTiles/Fire_UpwardsTile.png
+
+#begin Tiles/FireLevelTiles/Fire_UpwradsLeftCorner.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/FireLevelTiles/Fire_UpwradsLeftCorner.png
 
 #begin Tiles/WaterLevelTiles/Corner_Tile_UpwardsLeft.png
 /importer:TextureImporter

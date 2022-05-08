@@ -4,63 +4,95 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Assets/Big_Palm.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Assets/Grass_1.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Assets/Grass_2.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Assets/Grass_3.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Assets/Palm_Tree.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Assets/Palm_Tree2.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Buttons/CycleButton.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Buttons/TileButton.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/CampFire.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Cannon_Left.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Cannon_Right.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Checkpoint.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Collectible.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/DialogueTrigger_Tile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Fire_Pickup.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/FireKnight.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/FireMage.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/FireTile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Health_Pickup.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/PlayerStart_Tile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Snow_Pickup.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/SnowKnight.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/SnowMage.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/SnowTile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Spikes.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Water_Pickup.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/WaterKnight.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/WaterMage.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/WaterTile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Text/ModeText.spritefont</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/DefaultTile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Corner_Tile_UpwardsLeft.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Corner_Tile_UpwardsRight.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Grass_BottomLeft_CornerTile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Grass_BottomRight_CornerTile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Grass_Left_CornerTile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Grass_LeftSide_Tile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Grass_Right_CornerTile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Grass_RightSlide_Tile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Grass_Tile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Left_Corner.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Left_Slide.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Right_Corner.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Right_Slide.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Sky_FifthTile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Sky_FirstTile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Sky_FourthTile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Sky_SecondTile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Sky_SeventhTile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Sky_SixthTile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Sky_ThirdTile.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Thin_Tile_64x32.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Tile_Filler.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Tile_Sand.png</File>
-    <File>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Tile_SandReverse.jpg</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Assets/Big_Palm.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Assets/Grass_1.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Assets/Grass_2.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Assets/Grass_3.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Assets/Palm_Tree.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Assets/Palm_Tree2.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Buttons/CycleButton.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Buttons/TileButton.png</File>
+    <File>C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_EightFrame.png</File>
+    <File>C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_FifthFrame.png</File>
+    <File>C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_FirstFrame.png</File>
+    <File>C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_FourthFrame.png</File>
+    <File>C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_SecondFrame.png</File>
+    <File>C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_SeventhFrame.png</File>
+    <File>C:/Users/georg/Desktop/1x/AssetCreation/1x/FireSky_Thirdframe.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/CampFire.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Cannon_Left.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Cannon_Right.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Checkpoint.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Collectible.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/DialogueTrigger_Tile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Fire_Pickup.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/FireKnight.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/FireMage.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/FireTile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Health_Pickup.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/PlayerStart_Tile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Snow_Pickup.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/SnowKnight.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/SnowMage.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/SnowTile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Spikes.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Water_Pickup.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/WaterKnight.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/WaterMage.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/WaterTile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Text/ModeText.spritefont</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/DefaultTile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire_Filler.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire_LeftCorner.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire_LeftSlide.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire_RightCorner.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire_RightSlide.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire_Tile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire_UpwardsRightCorner.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire_UpwardsTile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/FireLevelTiles/Fire_UpwradsLeftCorner.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Corner_Tile_UpwardsLeft.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Corner_Tile_UpwardsRight.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Grass_BottomLeft_CornerTile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Grass_BottomRight_CornerTile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Grass_Left_CornerTile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Grass_LeftSide_Tile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Grass_Right_CornerTile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Grass_RightSlide_Tile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Grass_Tile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Left_Corner.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Left_Slide.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Right_Corner.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Right_Slide.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Sky_FifthTile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Sky_FirstTile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Sky_FourthTile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Sky_SecondTile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Sky_SeventhTile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Sky_SixthTile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Sky_ThirdTile.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Thin_Tile_64x32.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Tile_Filler.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Tile_Sand.png</File>
+    <File>D:/GitHub/Terramental_LevelEditor/LevelEditor/Content/Tiles/WaterLevelTiles/Tile_SandReverse.jpg</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File>Tiles/FireLevelTiles/FireSky_EightFrame.png</File>
+    <File>Tiles/FireLevelTiles/FireSky_FifthFrame.png</File>
+    <File>Tiles/FireLevelTiles/FireSky_FirstFrame.png</File>
+    <File>Tiles/FireLevelTiles/FireSky_FourthFrame.png</File>
+    <File>Tiles/FireLevelTiles/FireSky_SecondFrame.png</File>
+    <File>Tiles/FireLevelTiles/FireSky_SeventhFrame.png</File>
+    <File>Tiles/FireLevelTiles/FireSky_Thirdframe.png</File>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
