@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Entities/Health_Pickup.png</SourceFile>
-  <SourceTime>2022-03-22T22:21:47.6103168+00:00</SourceTime>
-  <DestFile>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/bin/Windows/Entities/Health_Pickup.xnb</DestFile>
-  <DestTime>2022-05-07T15:07:22.0833814+01:00</DestTime>
+  <SourceFile>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/Entities/Health_Pickup.png</SourceFile>
+  <SourceTime>2022-05-07T20:56:21.6932295+01:00</SourceTime>
+  <DestFile>C:/Users/lewis/Documents/GitHub/Terramental_LevelEditor/LevelEditor/Content/bin/Windows/Entities/Health_Pickup.xnb</DestFile>
+  <DestTime>2022-05-11T18:14:39.8342816+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T17:17:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

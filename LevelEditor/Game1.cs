@@ -53,30 +53,32 @@ namespace LevelEditor
 
             List<Texture2D> tileTextureList = new List<Texture2D>();
             tileTextureList.Add(GetTexture("Tiles/DefaultTile")); //0
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Corner_Tile_UpwardsLeft")); //0
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Corner_Tile_UpwardsRight")); //1
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_BottomLeft_CornerTile")); //2
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_BottomRight_CornerTile")); //3
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_Left_CornerTile")); //4
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_LeftSide_Tile")); //5
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_Right_CornerTile")); //6
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_RightSlide_Tile")); //7
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Grass_Tile")); //8
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Left_Corner")); //9
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Left_Slide")); //10
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Right_Corner")); //11
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Right_Slide")); //12
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire_Tile")); //0
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire_RightCorner")); //1
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire_RightSlide")); //2
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire_LeftCorner")); //3
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire_LeftSlide")); //4
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire_UpwardsRightCorner")); //5
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire_UpwradsLeftCorner")); //6
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire_UpwardsTile")); //7
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire_Filler")); //8
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_GroundTile")); //9
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_RightCorner")); //10
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_RightSlide")); //11
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_LeftCorner")); //12
             tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_FifthTile")); //13
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_FirstTile")); //14
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_FourthTile")); //15
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_SecondTile")); //16
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_SeventhTile")); //17
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_SixthTile")); //18
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Sky_ThirdTile")); //19
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Thin_Tile_64x32")); //20
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Tile_Filler")); //21
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Tile_Sand")); //22
-            tileTextureList.Add(GetTexture("Tiles/WaterLevelTiles/Tile_SandReverse")); //23
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/FireSky_FirstFrame")); //13
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/FireSky_SecondFrame")); //14
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/FireSky_Thirdframe")); //15
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/FireSky_FourthFrame")); //16
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/FireSky_FifthFrame")); //17
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/FireSky_SeventhFrame")); //18
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/FireSky_EightFrame")); //19
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_LeftSlide")); //20
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_DownRightCorner")); //21
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_DownLeftCorner")); //22
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_Filler")); //23
+            tileTextureList.Add(GetTexture("Tiles/FireLevelTiles/Fire2_Backwards")); //24
 
             List<Texture2D> entityTextureList = new List<Texture2D>();
             entityTextureList.Add(GetTexture("Tiles/DefaultTile")); //0
@@ -112,7 +114,7 @@ namespace LevelEditor
             assetTextureList.Add(GetTexture("Assets/Palm_Tree2"));
 
             //Set the width, height, available textures and entities
-            _mapManager = new MapManager(80, 15, tileTextureList, entityTextureList, assetTextureList);
+            _mapManager = new MapManager(200, 30, tileTextureList, entityTextureList, assetTextureList);
             _cameraTarget = new FollowTarget(new Vector2(0, 0), GetTexture("Tiles/DefaultTile"));
             _playerCam = new CameraController();
             _inputManager = new InputManager(_cameraTarget, _mapManager, _playerCam);
