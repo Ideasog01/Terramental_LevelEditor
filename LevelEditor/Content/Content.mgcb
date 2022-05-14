@@ -242,6 +242,18 @@
 /processorParam:TextureFormat=Color
 /build:Entities/Fire_Pickup.png
 
+#begin Entities/Fire_Spectre.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Entities/Fire_Spectre.png
+
 #begin Entities/FireKnight.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -314,6 +326,18 @@
 /processorParam:TextureFormat=Color
 /build:Entities/Snow_Pickup.png
 
+#begin Entities/Snow_Spectre.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Entities/Snow_Spectre.png
+
 #begin Entities/SnowKnight.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -373,6 +397,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Entities/Water_Pickup.png
+
+#begin Entities/Water_Spectre.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Entities/Water_Spectre.png
 
 #begin Entities/WaterKnight.png
 /importer:TextureImporter
