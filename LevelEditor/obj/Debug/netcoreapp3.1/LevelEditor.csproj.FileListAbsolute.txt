@@ -179,12 +179,6 @@ D:\University\Semester2\Game Development Group Project\Terramental_Project\Level
 D:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Assets\Grass_3.xnb
 D:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Assets\Palm_Tree.xnb
 D:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Assets\Palm_Tree2.xnb
-F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Assets\Big_Palm.xnb
-F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Assets\Grass_1.xnb
-F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Assets\Grass_2.xnb
-F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Assets\Grass_3.xnb
-F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Assets\Palm_Tree.xnb
-F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Assets\Palm_Tree2.xnb
 F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\DarkMage_Sprite.xnb
 F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\Grass_BottomLeft_CornerTile.xnb
 F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\Grass_BottomRight_CornerTile.xnb
@@ -483,3 +477,39 @@ C:\Users\lewis\Documents\GitHub\Terramental_LevelEditor\LevelEditor\bin\Debug\ne
 C:\Users\lewis\Documents\GitHub\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire_UpwardsRightCorner.xnb
 C:\Users\lewis\Documents\GitHub\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire_UpwardsTile.xnb
 C:\Users\lewis\Documents\GitHub\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire_UpwradsLeftCorner.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_Backwards.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_DownLeftCorner.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_DownRightCorner.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_Filler.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_GroundTile.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_LeftCorner.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_LeftSlide.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_RightCorner.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire2_RightSlide.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\FireSky_EightFrame.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\FireSky_FifthFrame.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\FireSky_FirstFrame.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\FireSky_FourthFrame.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\FireSky_SecondFrame.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\FireSky_SeventhFrame.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\FireSky_Thirdframe.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire_Filler.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire_LeftCorner.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire_LeftSlide.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire_RightCorner.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire_RightSlide.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire_Tile.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire_UpwardsRightCorner.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire_UpwardsTile.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Tiles\FireLevelTiles\Fire_UpwradsLeftCorner.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\Fire_Spectre.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\Snow_Spectre.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Entities\Water_Spectre.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Assets\DarkCloud.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Assets\DeadGrass_2.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Assets\DeadTree_1.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Assets\DeadTree_2.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Assets\DeadTree_3.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Assets\DoubleCloud.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Assets\GreyCloud.xnb
+F:\University\Semester2\Game Development Group Project\Terramental_Project\LevelEditor\Terramental_LevelEditor\LevelEditor\bin\Debug\netcoreapp3.1\Content\Assets\RedCloud.xnb

@@ -102,19 +102,24 @@ namespace LevelEditor
             entityTextureList.Add(GetTexture("Entities/Cannon_Right")); //18
             entityTextureList.Add(GetTexture("Entities/Cannon_Left")); //19
             entityTextureList.Add(GetTexture("Entities/SnowTile")); // 20
+            entityTextureList.Add(GetTexture("Entities/Fire_Spectre")); // 21
+            entityTextureList.Add(GetTexture("Entities/Water_Spectre")); // 22
+            entityTextureList.Add(GetTexture("Entities/Snow_Spectre")); // 23
 
             //**** Change Asset Textures Based on Level ****
             List<Texture2D> assetTextureList = new List<Texture2D>();
             assetTextureList.Add(GetTexture("Tiles/DefaultTile")); //0
-            assetTextureList.Add(GetTexture("Assets/Big_Palm"));
-            assetTextureList.Add(GetTexture("Assets/Grass_1"));
-            assetTextureList.Add(GetTexture("Assets/Grass_2"));
-            assetTextureList.Add(GetTexture("Assets/Grass_3"));
-            assetTextureList.Add(GetTexture("Assets/Palm_Tree"));
-            assetTextureList.Add(GetTexture("Assets/Palm_Tree2"));
+            assetTextureList.Add(GetTexture("Assets/DarkCloud"));
+            assetTextureList.Add(GetTexture("Assets/DeadGrass_2"));
+            assetTextureList.Add(GetTexture("Assets/DeadTree_1"));
+            assetTextureList.Add(GetTexture("Assets/DeadTree_2"));
+            assetTextureList.Add(GetTexture("Assets/DeadTree_3"));
+            assetTextureList.Add(GetTexture("Assets/DoubleCloud"));
+            assetTextureList.Add(GetTexture("Assets/GreyCloud"));
+            assetTextureList.Add(GetTexture("Assets/RedCloud"));
 
             //Set the width, height, available textures and entities
-            _mapManager = new MapManager(200, 30, tileTextureList, entityTextureList, assetTextureList);
+            _mapManager = new MapManager(300, 30, tileTextureList, entityTextureList, assetTextureList);
             _cameraTarget = new FollowTarget(new Vector2(0, 0), GetTexture("Tiles/DefaultTile"));
             _playerCam = new CameraController();
             _inputManager = new InputManager(_cameraTarget, _mapManager, _playerCam);
