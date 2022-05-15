@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/Assets/DoubleCloud.png</SourceFile>
-  <SourceTime>2022-05-14T15:18:10.7548869+01:00</SourceTime>
+  <SourceTime>2022-05-15T11:13:34.6506654+01:00</SourceTime>
   <DestFile>F:/University/Semester2/Game Development Group Project/Terramental_Project/LevelEditor/Terramental_LevelEditor/LevelEditor/Content/bin/Windows/Content/Assets/DoubleCloud.xnb</DestFile>
-  <DestTime>2022-05-14T17:56:08.2223221+01:00</DestTime>
+  <DestTime>2022-05-15T11:13:58.0083121+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T17:17:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
